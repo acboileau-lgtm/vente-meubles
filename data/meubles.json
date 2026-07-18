@@ -1,0 +1,10 @@
+[
+    {
+        "reference": "001",
+        "nom": "Canapé DARWIN",
+        "etat": "Comme neuf",
+        "prixNeuf": 899,
+        "prixVente": 540,
+        "photo": "001-01.jpeg"
+    }
+]
