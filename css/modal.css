@@ -128,3 +128,40 @@
     gap: 40px;
 
 }
+
+#modal-thumbnails {
+
+    display: flex;
+    gap: 12px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 10px 0;
+
+}
+
+.modal-thumbnail {
+
+    width: 80px;
+    height: 80px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    flex-shrink: 0;
+
+    opacity: .55;
+
+    transition: .25s ease;
+
+}
+
+.modal-thumbnail.active {
+    opacity:1;
+    transform: scale(1.03);
+    box-shadow:0 8px 18px rgba(0,0,0,.18);
+}

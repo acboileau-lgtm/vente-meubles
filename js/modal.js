@@ -15,6 +15,7 @@ function afficherMeubleDansModal(meuble) {
 
 
     image.src = `photos/${meuble.photos[0]}`;
+
     image.alt = meuble.nom;
 
     titre.textContent = meuble.nom;
@@ -33,6 +34,42 @@ function afficherMeubleDansModal(meuble) {
 
 
 }
+
+function afficherGaleriePhotos(meuble) {
+
+    const galerie = document.getElementById("modal-thumbnails");
+    galerie.innerHTML = "";
+    
+    meuble.photos.forEach(photo => {
+        const miniature = document.createElement("img");
+        const image = document.getElementById("modal-image");
+        miniature.src = `photos/${photo}`;
+        miniature.alt = `Photo du meuble ${meuble.nom}`;
+        miniature.classList.add("modal-thumbnail");
+            if (photo === meuble.photos[0]) {
+            miniature.classList.add("active");
+            }
+        miniature.dataset.photo = photo;        
+        miniature.addEventListener("click", function () {
+
+        const miniatures = document.querySelectorAll(".modal-thumbnail");
+        miniatures.forEach(function (miniature) {
+            miniature.classList.remove("active");
+        });
+        miniature.classList.add("active");
+        image.src = `photos/${photo}`;
+        miniature.scrollIntoView({
+            behavior: "smooth",
+            inline: "center",
+            block: "nearest"
+        });
+    }); 
+        galerie.appendChild(miniature);
+
+        
+    })
+}
+
 
 function ouvrirModal() {
     console.log("Ouverture de la fenêtre");
@@ -73,6 +110,7 @@ document.addEventListener("click", function (event) {
     }
 
     afficherMeubleDansModal(meuble);
+    afficherGaleriePhotos(meuble);
 
     ouvrirModal();
 
