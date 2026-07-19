@@ -1,0 +1,130 @@
+.modal.hidden {
+    display: none;
+}
+
+.modal {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .45);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+}
+
+.modal-content {
+
+    background: white;
+
+    width: min(900px, 100%);
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    position: relative;
+
+}
+
+.close-button {
+
+    all: unset;
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+    cursor: pointer;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: #333;
+
+}
+
+.modal-image {
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    object-fit: contain;
+
+}
+
+.modal-price {
+
+    font-size: 56px;
+    font-weight:700;
+
+    color: #4F6B52;
+
+}
+
+.modal-etat {
+    font-size: 15px;
+    font-style: italic;
+    white-space: pre-line;
+}
+
+.modal-description {
+
+    max-height: 220px;
+
+    overflow-y: auto;
+
+    white-space: pre-line;
+
+}
+
+.modal-dimensions {
+    font-size: 15px;
+    font-style: italic;
+    white-space: pre-line;
+}
+
+.product-specs {
+
+    display: grid;
+
+    grid-template-columns: max-content 1fr;
+
+    gap: 12px 20px;
+
+    margin-top: 20px;
+
+}
+
+.product-specs dt {
+
+    font-weight: 600;
+
+}
+
+.product-specs dd {
+
+    margin: 0;
+
+}
+
+.modal-body {
+
+    display: grid;
+
+    grid-template-columns: 55% 45%;
+
+    gap: 40px;
+
+}
