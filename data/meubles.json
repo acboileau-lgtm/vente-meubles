@@ -3,8 +3,25 @@
         "reference": "001",
         "nom": "Canapé DARWIN",
         "etat": "Comme neuf",
-        "prixNeuf": 899,
-        "prixVente": 540,
-        "photo": "001-01.jpeg"
+        "prixNeuf": 900,
+        "prixVente": 630,
+        "description": "Canapé droit convertible DARWIN 3 places Tissu Gris Design sobre et graphique. \n\nDesign sobre et graphique Le canapé droit convertible DARWIN 3 places en tissu gris est l'incarnation parfaite du style moderne et épuré. \nSon revêtement en tissu velours côtelé apporte une touche de sophistication et de confort, tout en s'intégrant harmonieusement dans n'importe quel intérieur. \nQue ce soit dans un salon spacieux ou un appartement urbain, ce canapé offre une esthétique élégante et tendance. \nSa couleur grise neutre permet de l'associer facilement avec d'autres éléments de décoration, créant ainsi un espace de vie accueillant et chaleureux. \nFonctionnalité convertible et confort optimal\nCe canapé 3 places se distingue par sa fonctionnalité convertible, transformant votre salon en un espace de couchage confortable en un clin d'œil. Grâce à son matelas d'une épaisseur de 12 cm en mousse polyuréthane, il offre un couchage régulier de qualité, garantissant un sommeil réparateur. \nLa structure en pin et contreplaqué assure une robustesse et une durabilité exceptionnelles, tandis que la suspension à ressorts zig-zag et sangle offre un soutien optimal. \nLe revêtement en 100% polyester est non seulement agréable au toucher, mais également facile à entretenir, assurant ainsi une longévité accrue.\nDimensions pratiques et coloris polyvalent\nAvec ses dimensions généreuses de largeur 198 cm, hauteur 89 cm et profondeur 99 cm, le canapé DARWIN s'adapte parfaitement aux espaces de vie modernes. \nSon coloris gris, à la fois sobre et élégant, s'harmonise avec une multitude de styles de décoration. \nLes pieds en polypropylène ajoutent une touche de modernité tout en assurant une stabilité optimale. \nCe canapé est le choix idéal pour ceux qui recherchent un mobilier à la fois fonctionnel et esthétiquement plaisant, répondant aux exigences des modes de vie contemporains.",
+        "dimensions": {
+        "largeur": 198,
+        "hauteur": 89,
+        "profondeur": 99
+        },
+        "couleur": "Gris",
+        "matiere": "Tissu",
+        "disponible": true,
+        "photoPrincipale": "001-01.jpeg",
+        "photos": ["001-01.jpeg", "001-02.jpeg", "001-03.jpeg", 
+        "001-04.jpeg", "001-05.jpeg", "001-06.jpeg", "001-07.jpeg", 
+        "001-08.jpeg", "001-09.jpeg", "001-10.jpeg", "001-11.jpeg", 
+        "001-12.jpeg", "001-13.jpeg", "001-14.jpeg"],
+        "categorie": "Canapés",
+        "dateAchat" : "2026-02-03"
+
+
     }
 ]
