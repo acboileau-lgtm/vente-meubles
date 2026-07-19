@@ -276,3 +276,23 @@ Faire simple.
 Faire beau.
 
 Faire plaisir.
+
+## Avancement
+
+### ✅ Sprint 1 terminé
+
+- Architecture du projet
+- Chargement des données JSON
+- Cartes produits
+- Modale dynamique
+- Fiche produit
+- Caractéristiques
+- Description avec ascenseur
+
+### 🚧 Sprint 2
+
+- Galerie photos
+- Badge Vendu
+- Recherche
+- Filtres
+- Responsive
