@@ -13,7 +13,7 @@
         },
         "couleur": "Gris",
         "matiere": "Tissu",
-        "disponible": true,
+        "statut": "Disponible",
         "photoPrincipale": "001-01.jpeg",
         "photos": ["001-01.jpeg", "001-02.jpeg", "001-03.jpeg", 
         "001-04.jpeg", "001-05.jpeg", "001-06.jpeg", "001-07.jpeg", 

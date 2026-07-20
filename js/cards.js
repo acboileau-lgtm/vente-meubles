@@ -10,8 +10,8 @@ function creerCarte(meuble) {
 
             <div class="card-content">
 
-                <span class="badge">
-                    ⭐ ${meuble.etat}
+                <span class="badge ${meuble.statut.toLowerCase()}">
+                    ${meuble.statut}
                 </span>
 
                 <h3>${meuble.nom}</h3>
