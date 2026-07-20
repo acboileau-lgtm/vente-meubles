@@ -221,3 +221,27 @@ button:hover{
     color:#3F6542;
 
 }
+
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    
+}
+.badge.disponible {
+
+    background-color: #dff5e1;
+    color: #2e7d32;
+
+}
+.badge.réservé {
+    background-color: #fff3cd;
+    color: #b26a00;
+}
+
+.badge.vendu {
+    background-color: #fde2e2;
+    color: #c62828;
+}

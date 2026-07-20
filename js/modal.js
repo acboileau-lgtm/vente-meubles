@@ -25,10 +25,7 @@ function afficherMeubleDansModal(meuble) {
         `${meuble.dimensions.largeur} × ${meuble.dimensions.profondeur} × ${meuble.dimensions.hauteur} cm`;
     couleur.textContent = meuble.couleur;
     matiere.textContent = meuble.matiere;
-    disponible.textContent =
-        meuble.disponible
-            ? "Disponible"
-            : "Vendu";
+    ddisponible.textContent = meuble.statut;
     description.textContent = meuble.description;
 
 
