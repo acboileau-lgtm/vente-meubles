@@ -1,10 +1,10 @@
 function creerCarte(meuble) {
 
     return `
-        <article class="card" data-reference="${meuble.reference}">
+        <article class="card" data-reference="${meuble.id}">
 
             <img
-                src="photos/${meuble.photoPrincipale}"
+                src="photos/${meuble.photos[0]}"
                 alt="${meuble.nom}"
             >
 
@@ -19,11 +19,11 @@ function creerCarte(meuble) {
                 <div class="prix">
 
                     <span class="ancien">
-                        ${meuble.prixNeuf} €
+                        ${meuble.prix.neuf} €
                     </span>
 
                     <span class="nouveau">
-                        ${meuble.prixVente} €
+                        ${meuble.prix.vente} €
                     </span>
 
                 </div>

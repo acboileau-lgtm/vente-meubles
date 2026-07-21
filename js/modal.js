@@ -20,12 +20,12 @@ function afficherMeubleDansModal(meuble) {
 
     titre.textContent = meuble.nom;
     etat.textContent = meuble.etat;
-    prix.textContent = `${meuble.prixVente} €`;
+    prix.textContent = `${meuble.prix.vente} €`;
     dimensions.textContent =
-        `${meuble.dimensions.largeur} × ${meuble.dimensions.profondeur} × ${meuble.dimensions.hauteur} cm`;
+        `${meuble.dimensions.largeur} × ${meuble.dimensions.longueur} × ${meuble.dimensions.hauteur} cm`;
     couleur.textContent = meuble.couleur;
-    matiere.textContent = meuble.matiere;
-    ddisponible.textContent = meuble.statut;
+    matiere.textContent = meuble.materiaux;
+    disponible.textContent = meuble.statut;
     description.textContent = meuble.description;
 
 

@@ -17,7 +17,7 @@ async function chargerMeubles() {
 function trouverMeuble(reference) {
 
     return meubles.find(
-        meuble => meuble.reference === reference
+        meuble => meuble.id === reference
     );
 
 }
