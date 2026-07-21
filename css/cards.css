@@ -4,8 +4,6 @@
 
 .hero {
 
-    min-height: 100vh;
-
     display: flex;
 
     justify-content: center;
@@ -53,12 +51,20 @@ h1 {
 .intro {
 
     font-size: 20px;
-
     line-height: 1.7;
-
     color: #555;
+    margin-bottom:20px;
 
-    margin-bottom: 50px;
+}
+.separator {
+
+    width: 300px;
+
+    height: 1px;
+
+    background: #dddddd;
+
+    margin: 40px auto;
 
 }
 
@@ -95,31 +101,19 @@ button:hover{
 }
 
 .catalogue{
-
-    padding:80px 40px;
-
-    max-width:1400px;
-
+    padding:20px 40px;
     margin:auto;
-
 }
 
 .catalogue h2{
-
     text-align:center;
-
     font-size:42px;
-
 }
 
 .catalogue-intro{
-
     text-align:center;
-
     color:#777;
-
     margin-top:15px;
-
     margin-bottom:60px;
 
 }
@@ -244,4 +238,40 @@ button:hover{
 .badge.vendu {
     background-color: #fde2e2;
     color: #c62828;
+}
+
+.search-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:40px;
+
+}
+
+#search{
+
+    width:500px;
+
+    max-width:100%;
+
+    padding:14px 20px;
+
+    font-size:20px;
+
+    border:1px solid #d8d8d8;
+
+    border-radius:30px;
+
+    outline:none;
+
+}
+
+#search:focus{
+
+    border-color:#7f9373;
+
+    box-shadow:0 0 0 4px rgba(127,147,115,.15);
+
 }

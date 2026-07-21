@@ -306,5 +306,77 @@ Le 2 indique le nombre d'espaces utilisés pour l'indentation.
 JSON.stringify(objet) → JSON compact.
 JSON.stringify(objet, null, 2) → JSON lisible.
 
+## Conteneur
 
+Créer un <div> autour d'un élément permet de le faire évoluer plus facilement.
+
+Aujourd'hui :
+
+[input]
+
+Demain :
+
+[input] [❌]
+
+14 meubles
+
+Filtres
+
+## Séparation visuelle
+
+Éviter d'utiliser <hr> lorsqu'on souhaite contrôler précisément le style.
+
+Préférer :
+
+<div class="separator"></div>
+
+avec une classe CSS dédiée.
+
+💡 À retenir
+
+Le HTML décrit la structure.
+
+Le CSS décrit l'apparence.
+Exemple : 
+    .separator {
+        width: 300px;
+        height: 1px;
+        background: #dddddd;
+        margin: 40px auto;
+    }
+
+## addEventListener()
+
+Permet d'écouter un événement.
+
+Exemple :
+
+search.addEventListener("input", () => {
+
+});
+
+JavaScript exécutera le code dès que l'événement "input" se produit.
+
+💡 À retenir
+
+addEventListener() ne fait rien tout seul.
+
+Il attend qu'un événement arrive.
+
+## Opérateur logique || (OU)
+
+Il permet de vérifier plusieurs conditions.
+
+if (condition1 || condition2) {
+    // Exécuté si au moins une des deux conditions est vraie.
+}
+
+Dans notre projet :
+
+return (
+    meuble.nom.toLowerCase().includes(recherche) ||
+    meuble.categorie.toLowerCase().includes(recherche)
+);
+
+Le meuble est conservé si son nom ou sa catégorie correspond à la recherche.
 
