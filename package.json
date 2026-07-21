@@ -1,0 +1,27 @@
+{
+  "name": "vente-meubles",
+  "version": "1.0.0",
+  "description": "Une seconde vie pour des meubles comme neufs.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acboileau-lgtm/vente-meubles.git"
+  },
+  "keywords": [],
+  "author": "Anne-Christine BOILEAU",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/acboileau-lgtm/vente-meubles/issues"
+  },
+  "homepage": "https://github.com/acboileau-lgtm/vente-meubles#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
