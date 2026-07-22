@@ -337,26 +337,20 @@ button:hover{
 }
 
 @media (max-width: 600px) {
-
+    
+ 
     .catalogue {
-
         padding:20px 15px;
-
     }
-
     .cards {
-
         gap: 24px;
-
     }
 
     .card {
-
         flex-basis: 100%;
-
         max-width:340px;
-
     }
+ 
 
 }
 

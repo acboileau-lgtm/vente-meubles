@@ -403,3 +403,77 @@
 
 }
 
+@media (max-width: 600px) {
+
+    /* ===== Catalogue ===== */
+
+    .catalogue {
+        padding: 20px 15px;
+    }
+
+    .cards {
+        gap: 24px;
+    }
+
+    .card {
+        flex-basis: 100%;
+        max-width: 340px;
+    }
+
+    /* ===== Modale ===== */
+
+    #modal-title {
+        font-size: 1.8rem;
+        line-height: 1.1;
+    }
+
+    .modal-image {
+        max-height: 180px;
+        object-fit: contain;
+    }
+
+    .modal-thumbnail {
+        width: 40px;
+        height: 40px;
+    }
+
+    .modal-price {
+        font-size: 2rem;
+    }
+
+    .interest-button {
+        padding: 10px 14px;
+        font-size: .95rem;
+    }
+
+    /* ===== Caractéristiques ===== */
+/* ==========================================================
+   Version téléphone :
+   on simplifie volontairement la fiche produit pour privilégier
+   la lecture de la description et le bouton de contact.
+========================================================== */
+    .modal-info h3 {
+    display: none;
+    }
+
+    .mobile-hide{
+    display:none;
+    }
+    .product-specs {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 10px;
+    font-size: .90rem;
+    }
+
+    .product-specs dt {
+        font-weight: 600;
+    }
+
+    .product-specs dd {
+        margin: 0;
+    }
+
+
+
+}
