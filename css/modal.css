@@ -423,22 +423,29 @@
     /* ===== Modale ===== */
 
     #modal-title {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         line-height: 1.1;
     }
 
     .modal-image {
-        max-height: 180px;
+        max-height: 120px;
         object-fit: contain;
     }
 
     .modal-thumbnail {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     .modal-price {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .modal-state {
+        display:none;
+    }
+
+    .modal-description {
+        font-size: 0.8rem;
     }
 
     .interest-button {
@@ -459,6 +466,7 @@
     .mobile-hide{
     display:none;
     }
+
     .product-specs {
     display: grid;
     grid-template-columns: max-content 1fr;
