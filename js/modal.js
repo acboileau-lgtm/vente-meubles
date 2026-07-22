@@ -104,14 +104,12 @@ function afficherGaleriePhotos(meuble) {
 
 
 function ouvrirModal() {
-    console.log("Ouverture de la fenêtre");
     const modal = document.getElementById("modal");
     modal.classList.remove("hidden");
 }
 
 function fermerModal() {
 
-    console.log("Je ferme la fenêtre");
 
     const modal = document.getElementById("modal");
 

@@ -11,11 +11,7 @@ const worksheet = workbook.Sheets["Meubles"];
 // ou : workbook.Sheets[workbook.SheetNames[0]]
 
 const meubles = XLSX.utils.sheet_to_json(worksheet);
-//const meubles = XLSX.utils.sheet_to_json(worksheet, {//  raw: false
-//});
-
-//console.log(meubles);
-//console.log(meubles[0]);
+;
 
 const meublesFiltres = meubles.filter((meuble) => {
     return meuble.Ref;
@@ -71,7 +67,7 @@ const meublesTransformes = meublesFiltres.map((meuble) => {
 
 });
 
-//console.log(meublesTransformes);
+
 
 fs.writeFileSync(
     "./data/meubles.json",
