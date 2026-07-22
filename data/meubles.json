@@ -93,7 +93,7 @@
   {
     "id": "004",
     "categorie": "Séjour",
-    "nom": "Table de sejour +4 Chaises",
+    "nom": "Table séjour +4 chaises",
     "etat": "Comme neuf",
     "statut": "Disponible",
     "dimensions": {
@@ -239,7 +239,7 @@
   {
     "id": "009",
     "categorie": "Chambre",
-    "nom": "Chevet X 2",
+    "nom": "Lot de 2 Chevets",
     "etat": "Comme neuf",
     "statut": "Disponible",
     "dimensions": {
@@ -320,7 +320,7 @@
   {
     "id": "012",
     "categorie": "Chambre",
-    "nom": "Armoire 3 porte(s) battante",
+    "nom": "Armoire 3 portes battante",
     "etat": "Comme neuf",
     "statut": "Disponible",
     "dimensions": {
@@ -376,7 +376,7 @@
   {
     "id": "014",
     "categorie": "WC",
-    "nom": "Meuble WC x 2",
+    "nom": "Lot de 2 meubles WC",
     "etat": "Comme neuf",
     "statut": "Disponible",
     "dimensions": {},
