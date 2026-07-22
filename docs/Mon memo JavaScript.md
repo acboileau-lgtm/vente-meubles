@@ -373,10 +373,32 @@ if (condition1 || condition2) {
 
 Dans notre projet :
 
-return (
+return
     meuble.nom.toLowerCase().includes(recherche) ||
     meuble.categorie.toLowerCase().includes(recherche)
 );
 
 Le meuble est conservé si son nom ou sa catégorie correspond à la recherche.
+
+## sort()
+
+Permet de trier un tableau.
+
+Syntaxe générale :
+
+tableau.sort((elementA, elementB) => {
+
+    return comparaison;
+
+});
+elementA : premier élément à comparer.
+elementB : second élément à comparer.
+
+Pour des textes :
+
+return elementA.nom.localeCompare(elementB.nom);
+
+Pour des nombres :
+
+return elementA.prix - elementB.prix;
 
