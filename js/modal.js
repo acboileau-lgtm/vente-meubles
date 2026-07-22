@@ -12,8 +12,6 @@ function afficherMeubleDansModal(meuble) {
 
     const description = document.getElementById("modal-description");
 
-
-
     image.src = `photos/${meuble.photos[0]}`;
 
     image.alt = meuble.nom;
@@ -90,13 +88,14 @@ document
 
 document.addEventListener("click", function (event) {
 
-    if (!event.target.classList.contains("card-link")) {
+   const carte = event.target.closest(".card");
+
+    if (!carte) {
         return;
     }
 
-    event.preventDefault();
+    event.preventDefault(); 
 
-    const carte = event.target.closest(".card");
     const reference = carte.dataset.reference;
 
     const meuble = trouverMeuble(reference);
