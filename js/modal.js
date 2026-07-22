@@ -12,6 +12,9 @@ function afficherMeubleDansModal(meuble) {
 
     const description = document.getElementById("modal-description");
 
+    const interet = document.getElementById("modal-interest");
+
+
     image.src = `photos/${meuble.photos[0]}`;
 
     image.alt = meuble.nom;
@@ -26,8 +29,42 @@ function afficherMeubleDansModal(meuble) {
     disponible.textContent = meuble.statut;
     description.textContent = meuble.description;
 
+    if (meuble.statut === "Disponible") {
 
+        interet.innerHTML = `
+            <button class="interest-button">
+                📩 Contacter le vendeur
+            </button>
+        `;
 
+    }
+    else if (meuble.statut === "Réservé") {
+
+        interet.innerHTML = `
+            <button class="interest-button reserved">
+                ⏳ Je souhaite être recontacté(e)
+            </button>
+        `;
+
+    }
+    else {
+
+        interet.innerHTML = `
+            <button class="interest-button sold" disabled>
+                ✔ Ce meuble a été vendu
+            </button>
+        `;
+
+    }
+
+    const bouton = interet.querySelector(".interest-button");
+
+    if (bouton && !bouton.disabled) {
+        bouton.addEventListener("click", () => {
+            contacterVendeur(meuble);
+            fermerModal();
+        });
+    }
 }
 
 function afficherGaleriePhotos(meuble) {
@@ -111,3 +148,32 @@ document.addEventListener("click", function (event) {
     ouvrirModal();
 
 });
+
+function contacterVendeur(meuble) {
+    const destinataire = "bacmarket59@proton.me";
+    const sujet = `Demande de renseignements -  ${meuble.nom}`;
+    const corps =
+`Bonjour,
+
+Demande de renseignements concernant le meuble :
+${meuble.nom}
+Prix : ${meuble.prix.vente} €
+Référence : ${meuble.id}
+
+Ce meuble est-il toujours disponible ?
+
+Pouvez-vous SVP me recontacter pour avoir plus d'informations et éventuellement convenir d'un rendez-vous   ?
+
+Merci d'avance.
+Cordialement,
+
+Voici mes coordonnées :
+Nom : 
+Téléphone : 
+
+Merci.`;
+    const mailto =
+        `mailto:${destinataire}?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corps)}`;
+    window.location.href = mailto;
+}
+

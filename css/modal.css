@@ -82,14 +82,49 @@
     white-space: pre-line;
 }
 
+#modal-interest {
+    margin-top: 20px;
+}
+
+.interest-button {
+    width: 95%;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    background: #4F6B52;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .25s ease;
+    flex:1;
+    box-sizing:border-box;
+    
+}
+
+.interest-button:hover {
+    background: #405744;
+    transform: translateY(-2px);
+}
+
+.interest-button.reserved {
+    background: #d48a00;
+}
+
+.interest-button.reserved:hover {
+    background: #bb7900;
+}
+
+.interest-button.sold {
+    background: #cfcfcf;
+    color: #666;
+    cursor: not-allowed;
+}
+
 .modal-description {
-
     max-height: 220px;
-
     overflow-y: auto;
-
     white-space: pre-line;
-
 }
 
 .modal-dimensions {
