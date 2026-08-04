@@ -56,8 +56,27 @@ chargerMeubles();
 document.getElementById("last-visit").innerHTML =
     "Aujourd'hui à 15:42";
 
-document.getElementById("visites-aujourdhui").textContent = 8;
-document.getElementById("visites-semaine").textContent = 31;
-document.getElementById("visites-total").textContent = 287;
+async function chargerFrequentation() {
+    try {
+        const response = await fetch("https://goatcounter-api.ac-boileau.workers.dev");
 
+        if (!response.ok) {
+            throw new Error("Impossible de récupérer les statistiques");
+        }
 
+        const stats = await response.json();
+
+        document.getElementById("todayVisits").textContent = stats.today;
+        document.getElementById("weekVisits").textContent = stats.week;
+        document.getElementById("totalVisits").textContent = stats.total;
+
+    } catch (err) {
+        console.error(err);
+
+        document.getElementById("todayVisits").textContent = "--";
+        document.getElementById("weekVisits").textContent = "--";
+        document.getElementById("totalVisits").textContent = "--";
+    }
+}
+
+chargerFrequentation();
