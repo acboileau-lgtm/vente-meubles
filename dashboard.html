@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard vendeur</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📊 Dashboard vendeur</h1>
+    </header>
+
+    <main id="dashboard">
+
+    <section class="last-update">
+
+        <div class="last-update-text">
+
+            <div class="last-update-header">
+                <span class="status-dot">🟢</span>
+                <span class="last-update-label">Dernière visite</span>
+            </div>
+
+            <div id="last-visit">
+                Aujourd'hui à 15:42
+            </div>
+
+        </div>
+
+    </section>
+
+        <h2 class="section-title">📦 Mes meubles</h2>
+        <section class="stats">
+            
+            <article class="stat-card disponible">
+               <div class="stat-icon">📦</div>
+                <h2 class="stat-title">Disponibles</h2>
+                <p id="nb-disponibles" class="stat-value">0</p>
+            </article>
+
+             <article class="stat-card reserve">
+                <div class="stat-icon">🛒</div>
+                <h2 class="stat-title">Réservés</h2>
+                <p id="nb-reserves" class="stat-value">0</p>
+            </article>
+
+            <article class="stat-card vendu">
+                <div class="stat-icon">✅</div>
+                <h2 class="stat-title">Vendus</h2>
+                <p id="nb-vendus" class="stat-value">0</p>
+
+            </article>
+        </section>
+
+        <h2 class="section-title">👀 Fréquentation</h2>
+        <section class="stats stats-visites">
+            
+            <article class="stat-card visites">
+                <div class="stat-icon">👀</div>
+                <h2 class="stat-title">Aujourd'hui</h2>
+                <p id="visites-aujourdhui" class="stat-value">--</p>
+            </article>
+
+            <article class="stat-card visites">
+                <div class="stat-icon">📅</div>
+                <h2 class="stat-title">Cette semaine</h2>
+                <p id="visites-semaine" class="stat-value">--</p>
+            </article>
+
+            <article class="stat-card visites">
+                <div class="stat-icon">🌍</div>
+                <h2 class="stat-title">Total visites</h2>
+                <p id="visites-total" class="stat-value">--</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
