@@ -29,6 +29,16 @@ function afficherMeubleDansModal(meuble) {
     disponible.textContent = meuble.statut;
     description.textContent = meuble.description;
 
+// 📊 GoatCounter : ouverture d'une fiche meuble
+    if (window.goatcounter) {
+        goatcounter.count({
+            path: `/meuble/${meuble.id}`,
+            title: meuble.nom,
+            event: true
+        });
+    }
+
+
     if (meuble.statut === "Disponible") {
 
         interet.innerHTML = `
@@ -61,9 +71,19 @@ function afficherMeubleDansModal(meuble) {
 
     if (bouton && !bouton.disabled) {
         bouton.addEventListener("click", () => {
-            contacterVendeur(meuble);
-            fermerModal();
-        });
+
+        // 📊 GoatCounter : clic sur le bouton
+        if (window.goatcounter) {
+            goatcounter.count({
+                path: `/contact/${meuble.id}`,
+                title: meuble.nom,
+                event: true
+            });
+        }
+
+        contacterVendeur(meuble);
+        fermerModal();
+    });
     }
 }
 
