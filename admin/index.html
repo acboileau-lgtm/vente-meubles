@@ -7,8 +7,10 @@
 
     <title>Dashboard vendeur</title>
 
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 
 <body>
 
@@ -18,20 +20,18 @@
 
     <main id="dashboard">
 
-    <section class="last-update">
+        <section class="last-update">
 
-        <div class="last-update-text">
+            <div class="last-update-text">
 
-            <div class="last-update-header">
-                <span class="status-dot">🟢</span>
-                <span class="last-update-label">Dernière visite</span>
+                <div class="last-update-header">
+                    <span class="status-dot">🟢</span>
+                    <span class="last-update-label">Dernière synchronisation</span>
+                </div>
+
+                <div id="last-visit"></div>
+
             </div>
-
-            <div id="last-visit">
-                Aujourd'hui à 15:42
-            </div>
-
-        </div>
 
     </section>
 
@@ -56,6 +56,13 @@
                 <p id="nb-vendus" class="stat-value">0</p>
 
             </article>
+
+            <article class="stat-card stock">
+                <div class="stat-icon">💰</div>
+                <h2 class="stat-title">Valeur du stock</h2>
+                <p id="valeur-stock" class="stat-value">0 €</p>
+            </article>
+
         </section>
 
         <h2 class="section-title">👀 Fréquentation</h2>
@@ -64,26 +71,49 @@
             <article class="stat-card visites">
                 <div class="stat-icon">👀</div>
                 <h2 class="stat-title">Aujourd'hui</h2>
-                <p id="visites-aujourdhui" class="stat-value">--</p>
+                <p id="todayVisits" class="stat-value">--</p>
             </article>
 
             <article class="stat-card visites">
                 <div class="stat-icon">📅</div>
                 <h2 class="stat-title">Cette semaine</h2>
-                <p id="visites-semaine" class="stat-value">--</p>
+                <p id="weekVisits" class="stat-value">--</p>
             </article>
 
             <article class="stat-card visites">
                 <div class="stat-icon">🌍</div>
                 <h2 class="stat-title">Total visites</h2>
-                <p id="visites-total" class="stat-value">--</p>
+                <p id="totalVisits" class="stat-value">--</p>
             </article>
 
         </section>
 
+        <section class="top-meubles">
+
+            <h2 class="section-title">
+                🔥 Meubles les plus consultés
+            </h2>
+
+            <div id="topMeubles"></div>
+
+        </section>
+
+        
+        <section class="chart-section">
+
+            <h2 class="section-title">
+                📈 Evolution des visites
+            </h2>
+
+            <canvas id="visitsChart"></canvas>
+
+        </section>
+
+
     </main>
 
-    <script src="js/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
