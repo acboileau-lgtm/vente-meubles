@@ -58,7 +58,9 @@ function mettreAJourStatistique(id, valeur) {
 
 
 async function chargerFrequentation() {
+
     try {
+
         const response = await fetch("https://goatcounter-api.ac-boileau.workers.dev");
 
         if (!response.ok) {
@@ -67,33 +69,45 @@ async function chargerFrequentation() {
 
         const stats = await response.json();
 
-        const maintenant = new Date();
+        const date = new Date();
+
+        const heure = date.toLocaleTimeString("fr-FR", {
+            hour: "2-digit",
+            minute: "2-digit"
+        });
+
+        const jour = stats.currentDay
+            ? stats.currentDay.split("-").reverse().join("/")
+            : "--/--/----";
 
         document.getElementById("last-visit").textContent =
-            `Aujourd'hui à ${maintenant.toLocaleTimeString("fr-FR", {
-                hour: "2-digit",
-                minute: "2-digit"
-            })}`;
+            `${jour} à ${heure}`;
 
         afficherTopMeubles(stats.topMeubles);
 
         const labels = stats.history.map(jour => jour.day);
         const valeurs = stats.history.map(jour => jour.visits);
 
-        animerCompteur("todayVisits", stats.today);
+        animerCompteur("todayVisits", stats.todayVisits);
         animerCompteur("weekVisits", stats.week);
         animerCompteur("totalVisits", stats.total);
+
         afficherGraphique(labels, valeurs);
 
     } catch (err) {
+
         console.error(err);
+
+        document.getElementById("last-visit").textContent = "--";
 
         afficherTopMeubles([]);
 
         animerCompteur("todayVisits", 0);
         animerCompteur("weekVisits", 0);
         animerCompteur("totalVisits", 0);
+
     }
+
 }
 
 function animerCompteur(id, valeurFinale, duree = 800) {
