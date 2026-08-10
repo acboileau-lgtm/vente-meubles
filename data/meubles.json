@@ -183,7 +183,7 @@
     "categorie": "Bureau",
     "nom": "Fauteuil bureau",
     "etat": "Bon etat",
-    "statut": "Réservé",
+    "statut": "Vendu",
     "dimensions": {
       "longueur": 67,
       "largeur": 66,
@@ -210,7 +210,7 @@
     "categorie": "Chambre",
     "nom": "Lit",
     "etat": "Très bon état",
-    "statut": "Disponible",
+    "statut": "Réservé",
     "dimensions": {
       "longueur": 195,
       "largeur": 149,
@@ -241,7 +241,7 @@
     "categorie": "Chambre",
     "nom": "Lot de 2 Chevets",
     "etat": "Comme neuf",
-    "statut": "Disponible",
+    "statut": "Réservé",
     "dimensions": {
       "longueur": 35,
       "largeur": 40,
@@ -270,7 +270,7 @@
     "categorie": "Chambre",
     "nom": "Matelas",
     "etat": "Très bon état",
-    "statut": "Disponible",
+    "statut": "Réservé",
     "dimensions": {
       "longueur": 190,
       "largeur": 140,
