@@ -1,1 +1,347 @@
-[]
+[
+  {
+    "id": "001",
+    "categorie": "Salon",
+    "nom": "Canapé",
+    "etat": "Comme neuf",
+    "statut": "Réservé",
+    "dimensions": {
+      "longueur": 99,
+      "largeur": 198,
+      "hauteur": 89
+    },
+    "prix": {
+      "neuf": 900,
+      "vente": 630
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Canapé droit convertible 3 places Tissu Gris\r\n\r\nRevêtement en tissu velours côtelé. Sa couleur grise neutre permet de l'associer facilement avec d'autres éléments de décoration, créant ainsi un espace de vie accueillant et chaleureux.\r\nCe canapé 3 places se distingue par sa fonctionnalité convertible, transformant votre salon en un espace de couchage confortable en un clin d'œil. Grâce à son matelas d'une épaisseur de 12 cm en mousse polyuréthane, il offre un couchage régulier de qualité, garantissant un sommeil réparateur. La structure en pin et contreplaqué assure une robustesse et une durabilité exceptionnelles, tandis que la suspension à ressorts zig-zag et sangle offre un soutien optimal. Le revêtement en 100% polyester est non seulement agréable au toucher, mais également facile à entretenir, assurant ainsi une longévité accrue.\r\n\r\nAvec ses dimensions généreuses de largeur 198 cm, hauteur 89 cm et profondeur 99 cm, le canapé s'adapte parfaitement aux espaces de vie modernes. Son coloris gris, à la fois sobre et élégant, s'harmonise avec une multitude de styles de décoration.",
+    "photos": [
+      "001-01.jpg",
+      "001-02.jpg",
+      "001-03.jpg",
+      "001-04.jpg",
+      "001-05.jpg",
+      "001-06.jpg",
+      "001-07.jpg",
+      "001-08.jpg",
+      "001-09.jpg",
+      "001-10.jpg",
+      "001-11.jpg",
+      "001-12.jpg",
+      "001-13.jpg",
+      "001-14.jpg"
+    ]
+  },
+  {
+    "id": "002",
+    "categorie": "Salon",
+    "nom": "Table salon",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 100,
+      "largeur": 60,
+      "hauteur": 45
+    },
+    "prix": {
+      "neuf": 150,
+      "vente": 105
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Table basse de salon, multifonctionnelle\r\n\r\nPour improviser un repas devant un bon film, cette table basse noire et imitation chêne sonoma est le meuble idéal.\r\nUtile pour délimiter l'espace dans un salon, ce meuble se distingue par ses capacités de rangement et ses tablettes amovibles.\r\n\r\nDe forme rectangulaire, cette table basse de L. 100 x H. 60 x P. 45,58 cm se démarque par une structure en panneaux de particules mélaminés, un mécanisme laptop en acier et un piètement en acier recouvert d'époxy. Peu encombrante et de faible profondeur, cette table basse est facile à entretenir avec un chiffon en microfibres.",
+    "photos": [
+      "002-01.jpg",
+      "002-02.jpg",
+      "002-03.jpg",
+      "002-04.jpg",
+      "002-05.jpg"
+    ]
+  },
+  {
+    "id": "003",
+    "categorie": "Salon",
+    "nom": "Meuble TV",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 155,
+      "largeur": 40,
+      "hauteur": 43
+    },
+    "prix": {
+      "neuf": 100,
+      "vente": 70
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Meuble TV 155 cm\r\n\r\nColoris chêne et noir qui s'intègre parfaitement dans un intérieur au style industriel.\r\nSon design bicolore, associant le chêne jackson et le noir, apporte une touche de modernité et de sophistication à votre salon.\r\n\r\nConçu à partir de panneaux de particules, il offre une robustesse et une durabilité appréciables.\r\nCe meuble est doté d'une porte coulissante, permettant un accès facile à vos appareils électroniques tout en les protégeant de la poussière.\r\nUne tablette de rangement supplémentaire est intégrée, idéale pour organiser vos accessoires multimédia.\r\nLe passe-câbles intégré assure une gestion discrète et ordonnée des fils, contribuant à un espace de vie harmonieux et bien rangé.\r\n\r\nAvec une longueur de 155 cm, une largeur de 40 cm et une hauteur de 43 cm, le meuble TV offre un espace suffisant pour accueillir une grande télévision ainsi que d'autres équipements audiovisuels. Son poids total de 24 kg témoigne de sa solidité et de sa stabilité.",
+    "photos": [
+      "003-01.jpg",
+      "003-02.jpg",
+      "003-03.jpg",
+      "003-04.jpg",
+      "003-05.jpg",
+      "003-06.jpg"
+    ]
+  },
+  {
+    "id": "004",
+    "categorie": "Séjour",
+    "nom": "Table de sejour +4 Chaises",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 120,
+      "largeur": 80,
+      "hauteur": 75
+    },
+    "prix": {
+      "neuf": 199,
+      "vente": 139
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Ensemble table rectangulaire 4 chaises\r\n\r\nAvec sa table de séjour de forme rectangulaire, cet ensemble offre une solution pratique pour accueillir jusqu'à quatre personnes.\r\nLe design bicolore, associant le noir et le blanc pour la table et le gris foncé pour les chaises, confère une touche moderne et élégante à votre intérieur.\r\nLa table, d'une longueur de 120 cm, est idéale pour les espaces restreints tout en permettant de partager des moments conviviaux en famille ou entre amis.\r\nLe plateau de la table est en panneau de particules avec une finition mélaminée, offrant une surface résistante et facile à entretenir.\r\nLes chaises, quant à elles, sont dotées d'une assise et d'un dossier en tissu, procurant un confort optimal.\r\n\r\nLes dimensions ergonomiques des chaises, avec une hauteur d'assise de 46 cm et une profondeur de 54 cm, assurent un confort d'assise appréciable.\r\nAvec une hauteur de table de 75 cm et une épaisseur de plateau de 18 mm, cet ensemble allie solidité et élégance pour sublimer votre espace de vie.\r\nDestiné à un usage intérieur, l'ensemble table et chaises TONY s'adresse aux foyers souhaitant optimiser leur espace tout en bénéficiant d'un mobilier au design contemporain.",
+    "photos": [
+      "004-01.jpg",
+      "004-02.jpg",
+      "004-03.jpg",
+      "004-04.jpg",
+      "004-05.jpg",
+      "004-06.jpg",
+      "004-07.jpg"
+    ]
+  },
+  {
+    "id": "005",
+    "categorie": "Séjour",
+    "nom": "Desserte cuisine",
+    "etat": "Bon etat",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 40,
+      "largeur": 75,
+      "hauteur": 81
+    },
+    "prix": {
+      "neuf": 90,
+      "vente": 63
+    },
+    "dateAchat": "2025-09-01",
+    "description": "Desserte cuisine au design moderne.\r\n\r\nElle combine une teinte noire élégante avec un revêtement effet bois clair, créant ainsi un contraste visuel attrayant.\r\nLes poignées en aluminium laqué noir ajoutent une touche de sophistication supplémentaire.\r\n\r\nFabriquée en France, cette desserte témoigne d'un savoir-faire local et d'une attention particulière portée à la qualité des matériaux.\r\nSa structure en panneau de particules et panneau de fibres de bois assure robustesse et durabilité, tandis que sa finition en papier décor lui confère un aspect soigné.\r\nRangements pratiques et mobilité facilitée\r\nAvec ses deux portes qui s'ouvrent sur un vaste espace de stockage, elle permet d'organiser efficacement vos ustensiles et provisions.\r\nUn atout majeur de ce meuble est son range-bouteilles latéral.\r\n\r\nDotée de roulettes multidirectionnelles, elle se déplace aisément, offrant une flexibilité d'utilisation au quotidien.\r\nCette mobilité est idéale pour ajuster la desserte en fonction de vos besoins, que ce soit pour cuisiner ou pour servir vos invités.\r\nDestinée à un usage intérieur.\r\nDimensions compactes (largeur de 75 cm, hauteur de 80,7 cm, profondeur de 40 cm) et un poids total de 20,9 kg.",
+    "photos": [
+      "005-01.jpg",
+      "005-02.jpg",
+      "005-03.jpg",
+      "005-04.jpg",
+      "005-05.jpg",
+      "005-06.jpg",
+      "005-07.jpg",
+      "005-08.jpg",
+      "005-09.jpg"
+    ]
+  },
+  {
+    "id": "006",
+    "categorie": "Bureau",
+    "nom": "Bureau",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 110,
+      "largeur": 55,
+      "hauteur": 77
+    },
+    "prix": {
+      "neuf": 200,
+      "vente": 140
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Bureau 110 cm coloris Chêne artisan\r\n\r\nAvec son style naturel et son coloris chêne artisan, ce bureau s'intègre parfaitement dans un environnement chaleureux et moderne.\r\nLe bois foncé apporte une touche d'élégance qui se marie facilement avec divers styles de décoration intérieure.\r\nQue ce soit pour les devoirs, les activités créatives ou le temps passé sur une tablette, ce bureau offre un cadre propice à la concentration et à la créativité.\r\nConçu avec un panneau de particules recouvert de papier décor, il allie robustesse et esthétique.\r\n\r\nCe bureau est équipé d'une porte et d'une niche, offrant des solutions de rangement pratiques pour les fournitures et les petits objets personnels.\r\n\r\nAvec ses dimensions compactes, le Bureau mesure 110 cm de longueur, 77 cm de hauteur et 55,5 cm de profondeur, ce qui en fait un choix parfait pour les chambres d'enfants ou petit bureau où l'espace est précieux. Son poids total de 39 kg assure une stabilité optimale, garantissant ainsi une utilisation sécurisée.",
+    "photos": [
+      "006-01.jpg",
+      "006-02.jpg",
+      "006-03.jpg",
+      "006-04.jpg",
+      "006-05.jpg",
+      "006-06.jpg"
+    ]
+  },
+  {
+    "id": "008",
+    "categorie": "Chambre",
+    "nom": "Lit",
+    "etat": "Très bon état",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 195,
+      "largeur": 149,
+      "hauteur": 72
+    },
+    "prix": {
+      "neuf": 100,
+      "vente": 70
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Cadre de lit 2 places 140x190\r\n\r\nLe lit adulte s'illustre par son style industriel, idéal pour ceux qui souhaitent insuffler une ambiance moderne et épurée à leur chambre. \r\nAvec sa finition en papier décor et ses teintes chêne kronberg et waterford, ce lit apporte une légère touche industrielle, tout en restant chaleureux. \r\nSa tête de lit se distingue par un travail sur les contrastes, offrant ainsi un design unique qui s'intègre parfaitement dans un intérieur contemporain.\r\nSa structure est conçue en panneau de particules de 15 et 18 mm, assurant robustesse et durabilité. \r\nBien que vendu sans sommier ni matelas, ce lit offre une base solide pour accueillir le couchage de votre choix. \r\n\r\nDimensions de couchage de 140x190 cm. \r\nAvec une longueur de 194,7 cm, une largeur de 148,3 cm et une hauteur de 71,7 cm, il s'intègre facilement dans la plupart des espaces.",
+    "photos": [
+      "008-01.jpg",
+      "008-02.jpg",
+      "008-03.jpg",
+      "008-04.jpg",
+      "008-05.jpg",
+      "008-06.jpg",
+      "008-07.jpg",
+      "008-08.jpg",
+      "008-09.jpg"
+    ]
+  },
+  {
+    "id": "009",
+    "categorie": "Chambre",
+    "nom": "Chevet X 2",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 35,
+      "largeur": 40,
+      "hauteur": 32
+    },
+    "prix": {
+      "neuf": 70,
+      "vente": 49
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Lot de 2 Chevets\r\n\r\nChevet 1 tiroir, idéal pour créer une ambiance moderne et urbaine dans votre chambre.\r\nAvec ses teintes de chêne krongberg et waterford, ce meuble apporte une touche de chaleur et d'authenticité à votre espace.\r\n\r\nSes dimensions compactes, avec une largeur de 39,5 cm, une hauteur de 32,1 cm et une profondeur de 34,7 cm, en font un choix parfait pour les petites chambres ou les espaces restreints.\r\nCe chevet est conçu pour s'intégrer harmonieusement dans tout type de décoration, tout en offrant une solution de rangement pratique et esthétique.\r\n\r\nSon tiroir unique permet de ranger facilement vos livres, lunettes ou autres objets personnels, tout en gardant votre espace de nuit organisé.\r\nCe meuble est idéal pour ceux qui souhaitent optimiser leur espace sans compromettre le style.\r\nEn plus de son utilisation fonctionnelle, le chevet peut être agrémenté d'éléments décoratifs comme une lampe ou un vase, pour personnaliser davantage votre espace.",
+    "photos": [
+      "009-01.jpg",
+      "009-02.jpg",
+      "009-03.jpg",
+      "009-04.jpg",
+      "009-05.jpg",
+      "009-06.jpg",
+      "009-07.jpg"
+    ]
+  },
+  {
+    "id": "010",
+    "categorie": "Chambre",
+    "nom": "Matelas",
+    "etat": "Très bon état",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 190,
+      "largeur": 140,
+      "hauteur": 21
+    },
+    "prix": {
+      "neuf": 300,
+      "vente": 210
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Matelas 140x190 cm 8 HEURES FUTE : Confort et soutien optimal fabriqué en France\r\n\r\nLe matelas 140x190 cm 8 HEURES FUTE est un choix idéal pour ceux qui recherchent un confort équilibré et un soutien medium.\r\nGrâce à sa technologie de ressorts ensachés, ce matelas offre une indépendance de couchage remarquable, permettant de ne pas ressentir les mouvements de son partenaire.\r\nFabriqué en France, il répond aux besoins des couples ou des personnes seules souhaitant un matelas deux places qui s'adapte parfaitement à leur morphologie.\r\nSon accueil ferme et son épaisseur de 21 cm garantissent un sommeil réparateur, quelle que soit la saison.\r\nCe matelas 8 HEURES FUTE se distingue par sa suspension de 480 ressorts ensachés, qui assure une excellente circulation de l'air et un soutien durable.\r\nLe tissu stretch 100 % polyester optimise la ventilation, évacuant l'humidité pour un confort optimal.\r\nAvec ses deux faces de couchage, il s'adapte aux variations saisonnières, offrant une face été avec un garnissage fin et respirant, et une face hiver plus enveloppante.\r\nAvec un poids de 32 kg, il est à la fois robuste et facile à manipuler.",
+    "photos": [
+      "010-01.jpg",
+      "010-02.jpg",
+      "010-03.jpg",
+      "010-04.jpg",
+      "010-05.jpg",
+      "010-06.jpg",
+      "010-07.jpg"
+    ]
+  },
+  {
+    "id": "011",
+    "categorie": "Chambre",
+    "nom": "Sommier",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 190,
+      "largeur": 140,
+      "hauteur": 5
+    },
+    "prix": {
+      "neuf": 140,
+      "vente": 98
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Cadre à lattes fixe 140x190 cm\r\nConçu pour offrir un soutien optimal, ce sommier est doté de 20 lattes souples en multiplis, garantissant une excellente répartition du poids et un maintien adapté à chaque morphologie.\r\nSa structure en métal assure une solidité à toute épreuve, tandis que ses trois zones de soutien, dont une zone lombaire renforcée, favorisent un alignement parfait de la colonne vertébrale.\r\nCe cadre est idéal pour ceux qui souhaitent améliorer la qualité de leur sommeil tout en préservant leur dos.\r\n\r\nFabriqué en France, ce sommier tapissier se distingue par ses caractéristiques techniques avancées.\r\nAvec une longueur de 190 cm, une largeur de 140 cm et une épaisseur de 5 cm, il s'intègre parfaitement dans les chambres de taille moyenne.\r\nLe choix de matériaux de qualité comme le métal pour la structure et les lattes multiplis pour la suspension assure une durabilité exceptionnelle.\r\nDe plus, son coloris gris s'harmonise facilement avec tout type de décor.\r\n\r\nAvec un poids total de 16 kg, il est facile à manipuler lors de l'installation.",
+    "photos": [
+      "011-01.jpg"
+    ]
+  },
+  {
+    "id": "012",
+    "categorie": "Chambre",
+    "nom": "Armoire 3 portes battantes",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 52,
+      "largeur": 134,
+      "hauteur": 192
+    },
+    "prix": {
+      "neuf": 250,
+      "vente": 175
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Armoire 3 portes battantes\r\n\r\nElle se distingue par son design moderne et épuré, alliant le coloris Chêne Kronberg et Waterford.\r\nCe meuble au style naturel s'intègre parfaitement dans tout type d'intérieur, qu'il soit contemporain ou plus classique.\r\nGrâce à son miroir intégré, elle agrandit visuellement l'espace et apporte une luminosité supplémentaire à votre pièce.\r\nFabriquée en France, cette armoire allie esthétisme et qualité, répondant ainsi aux attentes des consommateurs soucieux de l'origine de fabrication de leurs meubles.\r\n\r\nDotée de 3 portes battantes, l'armoire offre un aménagement intérieur astucieux avec deux tiers dédiés à la penderie et un tiers en lingère.\r\nLes étagères modulables permettent de ranger efficacement vos vêtements pliés.\r\nLa structure en panneau de particules assure une robustesse et une durabilité optimales.\r\nAvec une largeur de 133,5 cm, une hauteur de 191,5 cm et une profondeur de 51,4 cm, cette armoire est conçue pour optimiser l'espace de rangement tout en s'adaptant à des pièces de tailles variées.",
+    "photos": [
+      "012-01.jpg",
+      "012-02.jpg",
+      "012-03.jpg",
+      "012-04.jpg",
+      "012-05.jpg",
+      "012-06.jpg",
+      "012-07.jpg",
+      "012-08.jpg"
+    ]
+  },
+  {
+    "id": "013",
+    "categorie": "Entrée",
+    "nom": "Meuble Entrée",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {
+      "longueur": 70,
+      "largeur": 33,
+      "hauteur": 180
+    },
+    "prix": {
+      "neuf": 70,
+      "vente": 49
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Un pratique vestiaire multi-usages\r\n\r\nIdéal dans l'entrée pour suspendre les vestes et les manteaux ou déposer les sacs et les chapeaux, le vestiaire d'entrée se montre ultra-fonctionnel et se prête également au rangement des chaussures. Contemporain et design, il est muni d'une étagère haute, d'un système de patère avec 4 crochets en bois, d'un plateau en panneaux de particules enduit et de 2 étagères inférieures.\r\nCe vestiaire d'entrée de dimensions L. 76 x H. 178 x l. 35 cm s'avère peu encombrant grâce à sa faible profondeur.\r\nSimple d'entretien, il se nettoie à l'aide d'un chiffon en microfibres.",
+    "photos": [
+      "013-01.jpg",
+      "013-02.jpg",
+      "013-03.jpg",
+      "013-04.jpg"
+    ]
+  },
+  {
+    "id": "014",
+    "categorie": "WC",
+    "nom": "Meuble WC x 2",
+    "etat": "Comme neuf",
+    "statut": "Disponible",
+    "dimensions": {},
+    "prix": {
+      "neuf": 55,
+      "vente": 39
+    },
+    "dateAchat": "2026-02-01",
+    "description": "Lot de 2 meubles WC 2 portes avec étagères design industriel\r\n\r\nSon style moderne et ses lignes sobres créeront une ambiance chaleureuse et un esprit \"factory\" très tendance !\r\nLe mélange entre le coloris naturel du bois et le noir de sa structure en métal apportera une touche industrielle pour un esprit loft à votre intérieur.\r\n\r\nSes 3 étagères (composées de 2 tablettes) et ses 2 placards confèrent à ce meuble au design urbain plein d'atouts de rangement !\r\nDans les 2 placards, vous pourrez ranger en toute discrétion vos produits les moins esthétiques comme les rouleaux de papier toilette, les produits d'entretien...\r\n\r\nDimensions du meuble WC 2 portes avec étagères\r\nDimensions globales : Longueur 18 cm x largeur 30 cm x Hauteur 119 cm\r\nPlacard du haut : L. 12,5 x l. 29 x H. 19 cm\r\nPlacard du bas : L. 12,5 x l. 29 x H.36,5 cm",
+    "photos": [
+      "014-01.jpg",
+      "014-02.jpg",
+      "014-03.jpg",
+      "014-04.jpg",
+      "014-05.jpg",
+      "014-06.jpg"
+    ]
+  }
+]
